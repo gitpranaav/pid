@@ -1,0 +1,9 @@
+*.exe
+*.o
+*.obj
+*.pdf
+*.docx
+*.pptx
+
+.vscode/
+PID-autotune-master.zip
