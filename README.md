@@ -11,46 +11,46 @@ This project contains a few C/C++ programs that demonstrate PID-based control an
 - `temperature.cpp` - PID simulation for a temperature control example
 
 Explanation:
-● PID Controller Parameters:
-Kp, Ki, and Kd are the proportional, integral, and derivative gains,
-respectively.
+- PID Controller Parameters:
+Kp, Ki, and Kd are the proportional, integral, and derivative gains,respectively.
 tempKd is a temporary variable for initializing Kd.
 dt is the time step used in the simulation.
-● Function Definitions:
+
+- Function Definitions:
 computePID function:
 Takes the setpoint, current position, previous error, and integral as input.
 Computes the PID control output based on the PID equation.
 Updates the previous error and returns the control output.
-● simulateSystem function:
+- simulateSystem function:
 Simulates the system dynamics based on the control output.
 Updates the position and velocity of the system.
-displayGraph function:
+- displayGraph function:
 Displays a graphical representation of the system's position using ASCII
 characters.
 The graph is printed on the console, and the '#' character represents the
 current position.
-● Main Function:
+- Main Function:
 Initialization:
 Initializes the PID controller parameters, system initial conditions, and other
 variables.
 Asks the user to input the desired time to reach the setpoint (am) and adjusts
 Kd accordingly.
-● Simulation Loop:
+- Simulation Loop:
 Runs a simulation loop to compute the PID control output and simulate the
 system's response over time.
 Prints the time, position, and control output at each iteration.
 Uses usleep to introduce a delay for better visualization.
-● Auto-Tuning:
+- Auto-Tuning:
 Prints the auto-tuned values of Kp, Ki, and Kd after the initial simulation.
 User Input for Graph Display:
 Asks the user to input new values for Kp, Ki, and Kd for a second simulation
 and graph display.
-● Graph Display Loop:
+- Graph Display Loop:
 Runs a loop to compute the PID control output, simulate the system, and display
 the graph.
 Uses the displayGraph function to visually represent the system's position.
 
-## Build
+## build this project 
 
 Use your C/C++ compiler to build any of the source files. Example:
 
