@@ -1,6 +1,6 @@
 # PID Control Simulation Project
 
-This project contains a few small C/C++ programs that demonstrate PID-based control and visualization.
+This project contains a few C/C++ programs that demonstrate PID-based control and visualization.
 
 ## Main files
 
@@ -24,11 +24,3 @@ For the graph and temperature demos:
 g++ graph.cpp -o graph.exe
 g++ temperature.cpp -o temperature.exe
 ```
-
-## Run
-
-Run the compiled executable from the terminal and enter the requested values when prompted.
-
-## What to commit
-
-Commit the source files and this README. Do not commit generated files such as `.exe` or `.o` outputs.
